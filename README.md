@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
 DISTFOLD - v0.1
 --------------------------------------------------------------------------------
-DISTFOLD is a modified version of CONFOLD that receives distances (in RR format) as input to build 3D models. It is not published yet. Please cite the original CONFOLD paper if you are using DISTFOLD.
+DISTFOLD is a modified version of CONFOLD that receives distances (in RR format) as input to build 3D models. It is not published yet. Please cite the [original CONFOLD paper](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.24829).
 
 --------------------------------------------------------------------------------
 Install CNS Suite (last tested in a Ubuntu 16 system)
