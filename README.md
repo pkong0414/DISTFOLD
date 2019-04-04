@@ -13,7 +13,9 @@ Installing CNS Suite
    http://cns-online.org/download/, and download 
    CNS suite "cns_solve_1.3_all_intel-mac_linux.tar.gz".
 2. Unzip
+```bash
    $ tar xzvf cns_solve_1.3_all_intel-mac_linux.tar.gz
+```
 3. Change directory to cns_solve
    $ cd cns_solve_1.3
 4. Unhide the file '.cns_solve_env_sh'
