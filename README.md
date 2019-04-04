@@ -43,8 +43,10 @@ cd ../../
 Configure and test 'distfold.pl'
 --------------------------------------------------------------------------------
 1. Update paths for the variables '$cns_suite' and '$program_dssp'
-```perl
+```bash
 vim distfold.pl
+```
+```perl
 my $program_dssp   = "$DIR_BASE/dssp-2.0.4-linux-amd64";
 my $cns_suite      = "/home/bap54/CONFOLD2/confold2-v1.0/CNS-Suite/cns_solve_1.3";
 ```
