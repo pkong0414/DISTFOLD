@@ -44,7 +44,7 @@ my $program_dssp   = "$DIR_BASE/dssp-2.0.4-linux-amd64";
 my $cns_suite      = "/home/badri/DISTFOLD/cns_solve_1.3";
 ```
 #### 2. Test  
-###### Example with distances as input (1a3aA)  
+##### Example with distances as input (1a3aA)  
 a. Build models  
 ```bash
 cd test
@@ -55,7 +55,7 @@ b. Evaluate the models
 ```bash
 perl ./eval-using-tmscore.pl 1guu.pdb output-1guu/ all
 ```
-###### Example with contacts as input (1guu)  
+##### Example with contacts as input (1guu)  
 a. Build models
 ```bash
 rm -r output-1guu
