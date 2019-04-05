@@ -4,13 +4,9 @@ DISTFOLD is a modified version of CONFOLD that receives distances (in RR format)
 Installation tested in a Ubuntu16 system.
 
 ## Install CNS Suite
-1. To download CNS suite, provide your academic profile related 
-   information at http://cns-online.org/cns_request/. An email
-   with (a) link to download, (b) login, and (c) password
-   will be sent to you. Follow the link, possibly
-   http://cns-online.org/download/, and download 
-   CNS suite "cns_solve_1.3_all_intel-mac_linux.tar.gz".
-2. Unzip
+#### 1. Download CNS suite   
+Provide your academic profile related information at http://cns-online.org/cns_request/. An email with (a) link to download, (b) login, and (c) password will be sent to you. Follow the link, possibly http://cns-online.org/download/, and download CNS suite "cns_solve_1.3_all_intel-mac_linux.tar.gz".
+#### 2. Unzip
 ```bash
 tar xzvf cns_solve_1.3_all_intel-mac_linux.tar.gz
 ```
