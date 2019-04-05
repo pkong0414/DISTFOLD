@@ -1,7 +1,9 @@
 # DISTFOLD - v0.1  
-DISTFOLD is a modified version of CONFOLD that receives distances (in RR format) as input to build 3D models. It is not published yet. Please cite the [original CONFOLD paper](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.24829).
+DISTFOLD is a modified version of CONFOLD that receives distances (in RR format) as input to build 3D models. It is not published yet. Please cite the [original CONFOLD paper](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.24829).  
 
-## Install CNS Suite (last tested in a Ubuntu 16 system)  
+Installation tested in a Ubuntu16 system.
+
+## Install CNS Suite
 1. To download CNS suite, provide your academic profile related 
    information at http://cns-online.org/cns_request/. An email
    with (a) link to download, (b) login, and (c) password
