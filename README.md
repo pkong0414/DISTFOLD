@@ -46,11 +46,27 @@ vim distfold.pl
 my $program_dssp   = "$DIR_BASE/dssp-2.0.4-linux-amd64";
 my $cns_suite      = "/home/badri/DISTFOLD/cns_solve_1.3";
 ```
-2. Test the program:
+2. Test
+Example with distances as input (1a3aA)
+a. Build models
 ```bash
 cd test
-rm -rf ./output
-perl ../distfold.pl -rr ./1a3aA.dist.rr -ss ./1a3aA.ss_sa -o ./output
+rm -r output-1a3aA
+perl ../distfold.pl -rr ./1a3aA.dist.rr -ss ./1a3aA.ss_sa -o ./output-1a3aA -mcount 20 -selectrr 1.0L
+```
+b. Evaluate the models
+```bash
+perl ./eval-using-tmscore.pl 1guu.pdb output-1guu/ all
+```
+Example with contacts as input (1guu)
+a. Build models
+```bash
+rm -r output-1guu
+perl ../distfold.pl -rr ./1guu.rr -ss ./1guu.ss -o ./output-1guu -mcount 20 -selectrr 1.0L
+```
+b. Evaluate the models
+```bash
+perl ./eval-using-tmscore.pl 1a3aA.pdb output-1a3aA all
 ```
 
 ## Contact  
