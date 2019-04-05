@@ -53,7 +53,7 @@ perl ../distfold.pl -rr ./1a3aA.dist.rr -ss ./1a3aA.ss_sa -o ./output-1a3aA -mco
 ```
 b. Evaluate the models
 ```bash
-perl ./eval-using-tmscore.pl 1guu.pdb output-1guu/ all
+perl ./eval-using-tmscore.pl 1guu.pdb output-1guu/ all header
 ```
 ##### Example with contacts as input (1guu)  
 a. Build models
@@ -63,7 +63,7 @@ perl ../distfold.pl -rr ./1guu.rr -ss ./1guu.ss -o ./output-1guu -mcount 20 -sel
 ```
 b. Evaluate the models
 ```bash
-perl ./eval-using-tmscore.pl 1a3aA.pdb output-1a3aA all
+perl ./eval-using-tmscore.pl 1a3aA.pdb output-1a3aA all header
 ```
 
 ## Contact  
