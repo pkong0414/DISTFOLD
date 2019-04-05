@@ -52,6 +52,6 @@ perl ../distfold.pl -rr ./1a3aA.dist.rr -ss ./1a3aA.ss_sa -o ./output
 ```
 
 ## Contact  
-Badri Adhikari
-adhikarib@umsl.edu
-University of Missouri-St. Louis
+Badri Adhikari  
+adhikarib@umsl.edu  
+University of Missouri-St. Louis  
